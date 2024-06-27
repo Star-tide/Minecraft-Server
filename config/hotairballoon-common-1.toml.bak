@@ -1,0 +1,28 @@
+#Determine the basic ascending speed of the hot air balloon:
+BASIC_UP_SPEED = 0.2
+#Determine the ascending speed of the upgraded hot air balloon with a netherite upgrade smithing template:
+UPGRADE_UP_SPEED = 0.4
+#Determine the basic descent speed of the hot air balloon:
+BASIC_DOWN_SPEED = 0.2
+#Determine the descent speed of the upgraded hot air balloon with a netherite upgrade smithing template:
+UPGRADE_DOWN_SPEED = 0.4
+#Determine the basic horizontal movement speed of the hot air balloon(using w,a,s,d):
+BASIC_MOVE_SPEED = 0.3
+#Determine the upgraded horizontal movement speed of the hot air balloon(using w,a,s,d):
+UPGRADE_MOVE_SPEED = 0.6
+#Determine the basic fuel consumption rate of the hot air balloon:
+#Range: 1 ~ 9223372036854775807
+BASIC_FUEL_CONSUMPTION = 30
+#Determine the upgraded fuel consumption rate of the hot air balloon:
+#Range: 1 ~ 9223372036854775807
+UPGRADE_FUEL_CONSUMPTION = 60
+#Determine the max fuel storage amount of a hot air balloon:
+#Range: > 1
+MAX_FUEL = 500
+#Determine the amount of a coal or charcoal provided for hot air balloon fuel:
+#Range: > 1
+COAL_FUEL = 2
+#Determine the amount of a lava bucket provided for hot air balloon fuel:
+#Range: > 1
+LAVA_BUCKET_FUEL = 30
+

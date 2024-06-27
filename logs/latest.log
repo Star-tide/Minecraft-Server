@@ -1,0 +1,610 @@
+[26Jun2024 20:58:04.882] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[26Jun2024 20:58:04.885] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 22.0.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[26Jun2024 20:58:05.472] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Jun2024 20:58:05.504] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/bness/Desktop/Minecraft%20Server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Jun2024 20:58:05.797] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\bness\Desktop\Minecraft Server\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.1\fmlcore-1.20.1-47.3.1.jar is missing mods.toml file
+[26Jun2024 20:58:05.800] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\bness\Desktop\Minecraft Server\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.1\javafmllanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[26Jun2024 20:58:05.804] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\bness\Desktop\Minecraft Server\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.1\lowcodelanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[26Jun2024 20:58:05.807] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\bness\Desktop\Minecraft Server\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.1\mclanguage-1.20.1-47.3.1.jar is missing mods.toml file
+[26Jun2024 20:58:06.017] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[26Jun2024 20:58:06.019] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: C:\Users\bness\Desktop\Minecraft Server\mods\geckolib-neoforge-1.20.1-4.4.7.jar
+[26Jun2024 20:58:06.019] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[26Jun2024 20:58:07.395] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Jun2024 20:58:07.439] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[26Jun2024 20:58:07.483] [main/WARN] [mixin/]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2024 20:58:07.565] [main/INFO] [Puzzles Lib/]: All mods {/C:/Users/bness/Desktop/Minecraft Server/mods/ApothicAttributes-1.20.1-1.3.5.jar#148!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6367a688, /C:/Users/bness/Desktop/Minecraft Server/mods/ftb-xmod-compat-forge-2.1.1.jar#167!/=fuzs.puzzleslib.impl.core.ForgeModContainer@319642db, /C:/Users/bness/Desktop/Minecraft Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#195!/=fuzs.puzzleslib.impl.core.ForgeModContainer@59498d94, /C:/Users/bness/Desktop/Minecraft Server/mods/Mekanism-1.20.1-10.4.8.43.jar#178!/=fuzs.puzzleslib.impl.core.ForgeModContainer@35bfa1bb, /C:/Users/bness/Desktop/Minecraft Server/mods/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar#191!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6b321262, /C:/Users/bness/Desktop/Minecraft Server/mods/ftb-library-forge-2001.2.2.jar#165!/=fuzs.puzzleslib.impl.core.ForgeModContainer@68b11545, /C:/Users/bness/Desktop/Minecraft Server/mods/ftb-essentials-forge-2001.2.2.jar#164!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7d0100ea, /C:/Users/bness/Desktop/Minecraft Server/mods/MouseTweaks-forge-mc1.20-2.25.jar#180!/=fuzs.puzzleslib.impl.core.ForgeModContainer@357bc488, /C:/Users/bness/Desktop/Minecraft Server/mods/journeymap-1.20.1-5.10.0-forge.jar#175!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4ea17147, /C:/Users/bness/Desktop/Minecraft Server/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#184!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2eda4eeb, /C:/Users/bness/Desktop/Minecraft Server/mods/create-1.20.1-0.5.1.f (1).jar#159_/META-INF/jarjar/flywheel-forge-1.20.1-0.6.10-7.jar#221!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5ba90d8a, /C:/Users/bness/Desktop/Minecraft Server/mods/Patchouli-1.20.1-84-FORGE.jar#182!/=fuzs.puzzleslib.impl.core.ForgeModContainer@309dcdf3, /C:/Users/bness/Desktop/Minecraft Server/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#185!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7573b9ee, /C:/Users/bness/Desktop/Minecraft Server/mods/irons_spellbooks-1.20.1-3.2.0.jar#172!/=fuzs.puzzleslib.impl.core.ForgeModContainer@9a20cbd, /C:/Users/bness/Desktop/Minecraft Server/mods/Botania-1.20.1-444-FORGE.jar#154!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1af4955e, /C:/Users/bness/Desktop/Minecraft Server/mods/ars_nouveau-1.20.1-4.12.1-all.jar#152!/=fuzs.puzzleslib.impl.core.ForgeModContainer@445821a6, /C:/Users/bness/Desktop/Minecraft Server/mods/balm-forge-1.20.1-7.3.6-all.jar#153_/META-INF/jarjar/kuma-api-forge-20.1.8+1.20.1.jar#213!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c0c4c0a, /C:/Users/bness/Desktop/Minecraft Server/mods/MekanismGenerators-1.20.1-10.4.8.43.jar#179!/=fuzs.puzzleslib.impl.core.ForgeModContainer@35d26ad2, /C:/Users/bness/Desktop/Minecraft Server/mods/rftoolsbase-1.20-5.0.3.jar#186!/=fuzs.puzzleslib.impl.core.ForgeModContainer@bb25753, /C:/Users/bness/Desktop/Minecraft Server/mods/buildinggadgets2-1.0.7.jar#155!/=fuzs.puzzleslib.impl.core.ForgeModContainer@ee21292, /C:/Users/bness/Desktop/Minecraft Server/mods/Jade-1.20.1-forge-11.9.2.jar#173!/=fuzs.puzzleslib.impl.core.ForgeModContainer@40c06358, /C:/Users/bness/Desktop/Minecraft Server/mods/citadel-2.5.4-1.20.1.jar#157!/=fuzs.puzzleslib.impl.core.ForgeModContainer@66e21568, /C:/Users/bness/Desktop/Minecraft Server/mods/alexsmobs-1.22.8.jar#147!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7f73ce28, /C:/Users/bness/Desktop/Minecraft Server/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#185_/META-INF/jarjar/puzzlesaccessapi-forge-8.0.7.jar#215!/=fuzs.puzzleslib.impl.core.ForgeModContainer@611b35d6, /C:/Users/bness/Desktop/Minecraft Server/mods/rftoolsbuilder-1.20-6.0.5.jar#188!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2282400e, /C:/Users/bness/Desktop/Minecraft Server/mods/rftoolspower-1.20-6.0.2.jar#190!/=fuzs.puzzleslib.impl.core.ForgeModContainer@543d5863, /C:/Users/bness/Desktop/Minecraft Server/mods/mcjtylib-1.20-8.0.5.jar#177!/=fuzs.puzzleslib.impl.core.ForgeModContainer@35dece42, /C:/Users/bness/Desktop/Minecraft Server/mods/balm-forge-1.20.1-7.3.6-all.jar#153!/=fuzs.puzzleslib.impl.core.ForgeModContainer@dd3f8aa, /C:/Users/bness/Desktop/Minecraft Server/mods/ftb-ultimine-forge-2001.1.5.jar#166!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3d615b2e, /C:/Users/bness/Desktop/Minecraft Server/mods/kaijuassault.jar#176!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3a1f2a1, /C:/Users/bness/Desktop/Minecraft Server/mods/rftoolsdim-1.20-11.0.7.jar#189!/=fuzs.puzzleslib.impl.core.ForgeModContainer@40ce9049, /C:/Users/bness/Desktop/Minecraft Server/mods/architectury-9.2.14-forge.jar#151!/=fuzs.puzzleslib.impl.core.ForgeModContainer@52ca2652, /C:/Users/bness/Desktop/Minecraft Server/mods/ars_nouveau-1.20.1-4.12.1-all.jar#152_/META-INF/jarjar/mixinextras-forge-0.2.0-beta.8.jar#220!/=fuzs.puzzleslib.impl.core.ForgeModContainer@65c5bf0e, /C:/Users/bness/Desktop/Minecraft Server/mods/Placebo-1.20.1-8.6.2.jar#183!/=fuzs.puzzleslib.impl.core.ForgeModContainer@697d6ded, /C:/Users/bness/Desktop/Minecraft Server/mods/create-1.20.1-0.5.1.f (1).jar#159!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5d05f453, /C:/Users/bness/Desktop/Minecraft Server/mods/appliedenergistics2-forge-15.2.3.jar#150!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5efeb117, /C:/Users/bness/Desktop/Minecraft Server/mods/jei-1.20.1-forge-15.3.0.7.jar#174!/=fuzs.puzzleslib.impl.core.ForgeModContainer@160b4809, /C:/Users/bness/Desktop/Minecraft Server/mods/inventorysorter-1.20.1-23.0.1.jar#171!/=fuzs.puzzleslib.impl.core.ForgeModContainer@149b4d20, /C:/Users/bness/Desktop/Minecraft Server/mods/caelus-forge-3.2.0+1.20.1.jar#156!/=fuzs.puzzleslib.impl.core.ForgeModContainer@664e848c, /C:/Users/bness/Desktop/Minecraft Server/mods/Applied-Mekanistics-1.4.2.jar#149!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4d93f75b, /C:/Users/bness/Desktop/Minecraft Server/mods/GatewaysToEternity-1.20.1-4.2.5.jar#168!/=fuzs.puzzleslib.impl.core.ForgeModContainer@114a5e0, /C:/Users/bness/Desktop/Minecraft Server/mods/FramedBlocks-9.3.0.jar#163!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4f281aaf, /C:/Users/bness/Desktop/Minecraft Server/mods/curios-forge-5.9.0+1.20.1.jar#161!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5d508d22, /C:/Users/bness/Desktop/Minecraft Server/mods/geckolib-neoforge-1.20.1-4.4.7.jar#169!/=fuzs.puzzleslib.impl.core.ForgeModContainer@f2b90fc, /C:/Users/bness/Desktop/Minecraft Server/mods/sophisticatedcore-1.20.1-0.6.22.611.jar#192!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2bb41f5c, /C:/Users/bness/Desktop/Minecraft Server/mods/FluxNetworks-1.20.1-7.2.1.15.jar#162!/=fuzs.puzzleslib.impl.core.ForgeModContainer@24c685e7, /C:/Users/bness/Desktop/Minecraft Server/libraries/net/minecraftforge/forge/1.20.1-47.3.1/forge-1.20.1-47.3.1-universal.jar#200!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7da635c0, /C:/Users/bness/Desktop/Minecraft Server/mods/MutantMonsters-v8.0.7-1.20.1-Forge.jar#181!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2ed9f6f8, /C:/Users/bness/Desktop/Minecraft Server/mods/xbbs hotairballoon fantasy-1.0.0.jar#193!/=fuzs.puzzleslib.impl.core.ForgeModContainer@251c4280, /C:/Users/bness/Desktop/Minecraft Server/mods/cookingforblockheads-forge-1.20.1-16.0.6.jar#158!/=fuzs.puzzleslib.impl.core.ForgeModContainer@35650279}
+[26Jun2024 20:58:07.568] [main/INFO] [Puzzles Lib/]: Scheme for attributeslib: /C:/Users/bness/Desktop/Minecraft Server/mods/ApothicAttributes-1.20.1-1.3.5.jar#148!/
+[26Jun2024 20:58:07.570] [main/INFO] [Puzzles Lib/]: Scheme for ftbxmodcompat: /C:/Users/bness/Desktop/Minecraft Server/mods/ftb-xmod-compat-forge-2.1.1.jar#167!/
+[26Jun2024 20:58:07.571] [main/INFO] [Puzzles Lib/]: Scheme for minecraft: /C:/Users/bness/Desktop/Minecraft Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#195!/
+[26Jun2024 20:58:07.571] [main/INFO] [Puzzles Lib/]: Scheme for mekanism: /C:/Users/bness/Desktop/Minecraft Server/mods/Mekanism-1.20.1-10.4.8.43.jar#178!/
+[26Jun2024 20:58:07.572] [main/INFO] [Puzzles Lib/]: Scheme for sophisticatedbackpacks: /C:/Users/bness/Desktop/Minecraft Server/mods/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar#191!/
+[26Jun2024 20:58:07.572] [main/INFO] [Puzzles Lib/]: Scheme for ftblibrary: /C:/Users/bness/Desktop/Minecraft Server/mods/ftb-library-forge-2001.2.2.jar#165!/
+[26Jun2024 20:58:07.573] [main/INFO] [Puzzles Lib/]: Scheme for ftbessentials: /C:/Users/bness/Desktop/Minecraft Server/mods/ftb-essentials-forge-2001.2.2.jar#164!/
+[26Jun2024 20:58:07.573] [main/INFO] [Puzzles Lib/]: Scheme for mousetweaks: /C:/Users/bness/Desktop/Minecraft Server/mods/MouseTweaks-forge-mc1.20-2.25.jar#180!/
+[26Jun2024 20:58:07.573] [main/INFO] [Puzzles Lib/]: Scheme for journeymap: /C:/Users/bness/Desktop/Minecraft Server/mods/journeymap-1.20.1-5.10.0-forge.jar#175!/
+[26Jun2024 20:58:07.574] [main/INFO] [Puzzles Lib/]: Scheme for playeranimator: /C:/Users/bness/Desktop/Minecraft Server/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#184!/
+[26Jun2024 20:58:07.574] [main/INFO] [Puzzles Lib/]: Scheme for flywheel: /C:/Users/bness/Desktop/Minecraft Server/mods/create-1.20.1-0.5.1.f (1).jar#159!/
+[26Jun2024 20:58:07.575] [main/INFO] [Puzzles Lib/]: Scheme for patchouli: /C:/Users/bness/Desktop/Minecraft Server/mods/Patchouli-1.20.1-84-FORGE.jar#182!/
+[26Jun2024 20:58:07.576] [main/INFO] [Puzzles Lib/]: Scheme for puzzleslib: /C:/Users/bness/Desktop/Minecraft Server/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#185!/
+[26Jun2024 20:58:07.576] [main/INFO] [Puzzles Lib/]: Scheme for irons_spellbooks: /C:/Users/bness/Desktop/Minecraft Server/mods/irons_spellbooks-1.20.1-3.2.0.jar#172!/
+[26Jun2024 20:58:07.576] [main/INFO] [Puzzles Lib/]: Scheme for botania: /C:/Users/bness/Desktop/Minecraft Server/mods/Botania-1.20.1-444-FORGE.jar#154!/
+[26Jun2024 20:58:07.577] [main/INFO] [Puzzles Lib/]: Scheme for ars_nouveau: /C:/Users/bness/Desktop/Minecraft Server/mods/ars_nouveau-1.20.1-4.12.1-all.jar#152!/
+[26Jun2024 20:58:07.577] [main/INFO] [Puzzles Lib/]: Scheme for kuma_api: /C:/Users/bness/Desktop/Minecraft Server/mods/balm-forge-1.20.1-7.3.6-all.jar#153!/
+[26Jun2024 20:58:07.578] [main/INFO] [Puzzles Lib/]: Scheme for mekanismgenerators: /C:/Users/bness/Desktop/Minecraft Server/mods/MekanismGenerators-1.20.1-10.4.8.43.jar#179!/
+[26Jun2024 20:58:07.578] [main/INFO] [Puzzles Lib/]: Scheme for rftoolsbase: /C:/Users/bness/Desktop/Minecraft Server/mods/rftoolsbase-1.20-5.0.3.jar#186!/
+[26Jun2024 20:58:07.579] [main/INFO] [Puzzles Lib/]: Scheme for buildinggadgets2: /C:/Users/bness/Desktop/Minecraft Server/mods/buildinggadgets2-1.0.7.jar#155!/
+[26Jun2024 20:58:07.579] [main/INFO] [Puzzles Lib/]: Scheme for jade: /C:/Users/bness/Desktop/Minecraft Server/mods/Jade-1.20.1-forge-11.9.2.jar#173!/
+[26Jun2024 20:58:07.580] [main/INFO] [Puzzles Lib/]: Scheme for citadel: /C:/Users/bness/Desktop/Minecraft Server/mods/citadel-2.5.4-1.20.1.jar#157!/
+[26Jun2024 20:58:07.580] [main/INFO] [Puzzles Lib/]: Scheme for alexsmobs: /C:/Users/bness/Desktop/Minecraft Server/mods/alexsmobs-1.22.8.jar#147!/
+[26Jun2024 20:58:07.581] [main/INFO] [Puzzles Lib/]: Scheme for puzzlesaccessapi: /C:/Users/bness/Desktop/Minecraft Server/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#185!/
+[26Jun2024 20:58:07.581] [main/INFO] [Puzzles Lib/]: Scheme for rftoolsbuilder: /C:/Users/bness/Desktop/Minecraft Server/mods/rftoolsbuilder-1.20-6.0.5.jar#188!/
+[26Jun2024 20:58:07.581] [main/INFO] [Puzzles Lib/]: Scheme for rftoolspower: /C:/Users/bness/Desktop/Minecraft Server/mods/rftoolspower-1.20-6.0.2.jar#190!/
+[26Jun2024 20:58:07.582] [main/INFO] [Puzzles Lib/]: Scheme for mcjtylib: /C:/Users/bness/Desktop/Minecraft Server/mods/mcjtylib-1.20-8.0.5.jar#177!/
+[26Jun2024 20:58:07.582] [main/INFO] [Puzzles Lib/]: Scheme for balm: /C:/Users/bness/Desktop/Minecraft Server/mods/balm-forge-1.20.1-7.3.6-all.jar#153!/
+[26Jun2024 20:58:07.583] [main/INFO] [Puzzles Lib/]: Scheme for ftbultimine: /C:/Users/bness/Desktop/Minecraft Server/mods/ftb-ultimine-forge-2001.1.5.jar#166!/
+[26Jun2024 20:58:07.583] [main/INFO] [Puzzles Lib/]: Scheme for gojiraminusone: /C:/Users/bness/Desktop/Minecraft Server/mods/kaijuassault.jar#176!/
+[26Jun2024 20:58:07.583] [main/INFO] [Puzzles Lib/]: Scheme for rftoolsdim: /C:/Users/bness/Desktop/Minecraft Server/mods/rftoolsdim-1.20-11.0.7.jar#189!/
+[26Jun2024 20:58:07.584] [main/INFO] [Puzzles Lib/]: Scheme for architectury: /C:/Users/bness/Desktop/Minecraft Server/mods/architectury-9.2.14-forge.jar#151!/
+[26Jun2024 20:58:07.584] [main/INFO] [Puzzles Lib/]: Scheme for mixinextras: /C:/Users/bness/Desktop/Minecraft Server/mods/ars_nouveau-1.20.1-4.12.1-all.jar#152!/
+[26Jun2024 20:58:07.585] [main/INFO] [Puzzles Lib/]: Scheme for placebo: /C:/Users/bness/Desktop/Minecraft Server/mods/Placebo-1.20.1-8.6.2.jar#183!/
+[26Jun2024 20:58:07.585] [main/INFO] [Puzzles Lib/]: Scheme for create: /C:/Users/bness/Desktop/Minecraft Server/mods/create-1.20.1-0.5.1.f (1).jar#159!/
+[26Jun2024 20:58:07.586] [main/INFO] [Puzzles Lib/]: Scheme for ae2: /C:/Users/bness/Desktop/Minecraft Server/mods/appliedenergistics2-forge-15.2.3.jar#150!/
+[26Jun2024 20:58:07.586] [main/INFO] [Puzzles Lib/]: Scheme for jei: /C:/Users/bness/Desktop/Minecraft Server/mods/jei-1.20.1-forge-15.3.0.7.jar#174!/
+[26Jun2024 20:58:07.587] [main/INFO] [Puzzles Lib/]: Scheme for inventorysorter: /C:/Users/bness/Desktop/Minecraft Server/mods/inventorysorter-1.20.1-23.0.1.jar#171!/
+[26Jun2024 20:58:07.589] [main/INFO] [Puzzles Lib/]: Scheme for caelus: /C:/Users/bness/Desktop/Minecraft Server/mods/caelus-forge-3.2.0+1.20.1.jar#156!/
+[26Jun2024 20:58:07.589] [main/INFO] [Puzzles Lib/]: Scheme for appmek: /C:/Users/bness/Desktop/Minecraft Server/mods/Applied-Mekanistics-1.4.2.jar#149!/
+[26Jun2024 20:58:07.590] [main/INFO] [Puzzles Lib/]: Scheme for gateways: /C:/Users/bness/Desktop/Minecraft Server/mods/GatewaysToEternity-1.20.1-4.2.5.jar#168!/
+[26Jun2024 20:58:07.590] [main/INFO] [Puzzles Lib/]: Scheme for framedblocks: /C:/Users/bness/Desktop/Minecraft Server/mods/FramedBlocks-9.3.0.jar#163!/
+[26Jun2024 20:58:07.591] [main/INFO] [Puzzles Lib/]: Scheme for curios: /C:/Users/bness/Desktop/Minecraft Server/mods/curios-forge-5.9.0+1.20.1.jar#161!/
+[26Jun2024 20:58:07.591] [main/INFO] [Puzzles Lib/]: Scheme for geckolib: /C:/Users/bness/Desktop/Minecraft Server/mods/geckolib-neoforge-1.20.1-4.4.7.jar#169!/
+[26Jun2024 20:58:07.592] [main/INFO] [Puzzles Lib/]: Scheme for sophisticatedcore: /C:/Users/bness/Desktop/Minecraft Server/mods/sophisticatedcore-1.20.1-0.6.22.611.jar#192!/
+[26Jun2024 20:58:07.592] [main/INFO] [Puzzles Lib/]: Scheme for fluxnetworks: /C:/Users/bness/Desktop/Minecraft Server/mods/FluxNetworks-1.20.1-7.2.1.15.jar#162!/
+[26Jun2024 20:58:07.592] [main/INFO] [Puzzles Lib/]: Scheme for forge: /C:/Users/bness/Desktop/Minecraft Server/libraries/net/minecraftforge/forge/1.20.1-47.3.1/forge-1.20.1-47.3.1-universal.jar#200!/
+[26Jun2024 20:58:07.593] [main/INFO] [Puzzles Lib/]: Scheme for mutantmonsters: /C:/Users/bness/Desktop/Minecraft Server/mods/MutantMonsters-v8.0.7-1.20.1-Forge.jar#181!/
+[26Jun2024 20:58:07.593] [main/INFO] [Puzzles Lib/]: Scheme for hotairballoon: /C:/Users/bness/Desktop/Minecraft Server/mods/xbbs hotairballoon fantasy-1.0.0.jar#193!/
+[26Jun2024 20:58:07.594] [main/INFO] [Puzzles Lib/]: Scheme for cookingforblockheads: /C:/Users/bness/Desktop/Minecraft Server/mods/cookingforblockheads-forge-1.20.1-16.0.6.jar#158!/
+[26Jun2024 20:58:07.597] [main/INFO] [Puzzles Lib/]: Loading 50 mods:
+	- ae2 15.2.3
+	- alexsmobs 1.22.8
+	- appmek 1.4.2
+	- architectury 9.2.14
+	- ars_nouveau 4.12.1
+		\-- mixinextras 0.2.0-beta.8
+	- attributeslib 1.3.5
+	- balm 7.3.6
+		\-- kuma_api 20.1.8
+	- botania 1.20.1-444-FORGE
+	- buildinggadgets2 1.0.7
+	- caelus 3.2.0+1.20.1
+	- citadel 2.5.4
+	- cookingforblockheads 16.0.6
+	- create 0.5.1.f
+		\-- flywheel 0.6.10-7
+	- curios 5.9.0+1.20.1
+	- fluxnetworks 7.2.1.15
+	- forge 47.3.1
+	- framedblocks 9.3.0
+	- ftbessentials 2001.2.2
+	- ftblibrary 2001.2.2
+	- ftbultimine 2001.1.5
+	- ftbxmodcompat 2.1.1
+	- gateways 4.2.5
+	- geckolib 4.4.7
+	- gojiraminusone 1.0.0
+	- hotairballoon 1.0.0
+	- inventorysorter 23.0.1
+	- irons_spellbooks 1.20.1-3.2.0
+	- jade 11.9.2+forge
+	- jei 15.3.0.7
+	- journeymap 5.10.0
+	- mcjtylib 1.20-8.0.5
+	- mekanism 10.4.8
+	- mekanismgenerators 10.4.8
+	- minecraft 1.20.1
+	- mousetweaks 2.25
+	- mutantmonsters 8.0.7
+	- patchouli 1.20.1-84-FORGE
+	- placebo 8.6.2
+	- playeranimator 1.0.2-rc1+1.20
+	- puzzleslib 8.1.20
+		\-- puzzlesaccessapi 8.0.7
+	- rftoolsbase 1.20-5.0.3
+	- rftoolsbuilder 1.20-6.0.5
+	- rftoolsdim 1.20-11.0.7
+	- rftoolspower 1.20-6.0.2
+	- sophisticatedbackpacks 3.20.5.1044
+	- sophisticatedcore 0.6.22.611
+[26Jun2024 20:58:07.696] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Jun2024 20:58:07.728] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Jun2024 20:58:08.293] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.0-rc.4).
+[26Jun2024 20:58:09.364] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Jun2024 20:58:09.365] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Jun2024 20:58:10.483] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Jun2024 20:58:10.483] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[26Jun2024 20:58:13.048] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
+[26Jun2024 20:58:13.048] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.1 Initialized
+[26Jun2024 20:58:13.054] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[26Jun2024 20:58:13.204] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[26Jun2024 20:58:13.206] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
+[26Jun2024 20:58:13.209] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
+[26Jun2024 20:58:13.214] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[26Jun2024 20:58:13.319] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[26Jun2024 20:58:13.404] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[26Jun2024 20:58:17.876] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[26Jun2024 20:58:17.883] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\bness\Desktop\Minecraft Server\config\hotairballoon-common.toml is not correct. Correcting
+[26Jun2024 20:58:17.884] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key BASIC_UP_SPEED was corrected from 0.2 to its default, 0.2. 
+[26Jun2024 20:58:17.885] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key UPGRADE_UP_SPEED was corrected from 0.4 to its default, 0.4. 
+[26Jun2024 20:58:17.886] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key BASIC_DOWN_SPEED was corrected from 0.2 to its default, 0.2. 
+[26Jun2024 20:58:17.886] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key UPGRADE_DOWN_SPEED was corrected from 0.4 to its default, 0.4. 
+[26Jun2024 20:58:17.887] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key BASIC_MOVE_SPEED was corrected from 0.3 to its default, 0.3. 
+[26Jun2024 20:58:17.888] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key UPGRADE_MOVE_SPEED was corrected from 0.6 to its default, 0.6. 
+[26Jun2024 20:58:17.892] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file C:\Users\bness\Desktop\Minecraft Server\config\hotairballoon-common.toml is not correct. Correcting
+[26Jun2024 20:58:17.968] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.4.8 initializing...
+[26Jun2024 20:58:17.984] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
+[26Jun2024 20:58:18.026] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [Entity Tags] as the active game stages implementation
+[26Jun2024 20:58:18.030] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [FALLBACK] as the active permissions implementation
+[26Jun2024 20:58:18.055] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[26Jun2024 20:58:18.108] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[26Jun2024 20:58:18.108] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[26Jun2024 20:58:18.260] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: UP_TO_DATE Current: 8.0.7 Target: null
+[26Jun2024 20:58:18.260] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[26Jun2024 20:58:18.400] [main/INFO] [journeymap/]: Initializing Packet Registries
+[26Jun2024 20:58:18.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.0 Target: null
+[26Jun2024 20:58:18.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[26Jun2024 20:58:18.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[26Jun2024 20:58:18.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Jun2024 20:58:18.591] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[26Jun2024 20:58:18.640] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.cookingforblockheads.compat.ForgeJadeCookingForBlockheadsPlugin
+[26Jun2024 20:58:18.645] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.shadowsoffire.gateways.compat.GatewayJadePlugin
+[26Jun2024 20:58:18.646] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[26Jun2024 20:58:18.653] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[26Jun2024 20:58:18.656] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[26Jun2024 20:58:18.657] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at appeng.integration.modules.jade.JadeModule
+[26Jun2024 20:58:18.666] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at mekanism.common.integration.lookingat.jade.MekanismJadePlugin
+[26Jun2024 20:58:18.667] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
+[26Jun2024 20:58:18.668] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at xfacthd.framedblocks.common.compat.jade.FramedJadePlugin
+[26Jun2024 20:58:18.668] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at me.ramidzkh.mekae2.integration.jade.AMJadePlugin
+[26Jun2024 20:58:18.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.3.1 Target: null
+[26Jun2024 20:58:18.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[26Jun2024 20:58:18.721] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.722] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.723] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.723] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.723] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.724] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.724] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.725] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.725] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.725] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.726] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.726] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.727] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.727] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.727] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.728] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.728] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.729] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.729] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.729] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.730] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.730] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.730] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.731] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.731] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.731] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.732] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.732] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.733] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.733] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.734] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.734] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.734] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.735] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.735] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.736] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.736] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.737] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.737] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.737] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.738] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.738] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.738] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.739] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.739] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.739] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.740] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.740] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.741] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.742] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.743] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.743] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.744] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.744] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.744] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.745] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.745] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.746] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.746] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.746] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.747] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.747] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.748] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.748] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.749] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.749] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.750] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.750] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.751] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.751] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.751] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.752] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.752] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.752] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:18.902] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[26Jun2024 20:58:18.903] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[26Jun2024 20:58:18.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.20 Target: 8.1.21
+[26Jun2024 20:58:18.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [appmek] Starting version check at https://api.modrinth.com/updates/applied-mekanistics/forge_updates.json
+[26Jun2024 20:58:19.019] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [appmek] Found status: BETA Current: 1.4.2 Target: null
+[26Jun2024 20:58:22.180] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26Jun2024 20:58:22.259] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.260] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.260] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.261] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.261] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.261] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.262] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.262] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.262] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.263] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.263] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.264] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.264] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.264] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.265] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.265] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.265] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.266] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.266] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.267] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.267] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.267] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.268] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.268] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.269] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.269] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.269] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.270] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.270] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.270] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.271] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.271] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.271] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.272] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.272] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.272] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.273] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.273] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.273] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.274] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.274] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.275] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.275] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.275] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.276] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.276] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.276] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.277] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.277] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.277] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.278] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.280] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.280] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.280] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.281] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.281] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.281] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.282] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.282] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.283] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.283] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.283] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.284] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.284] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.284] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.285] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.285] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.285] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.286] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.286] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.286] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.286] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.287] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.287] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.324] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:support_block Expected: 1889 Got: 3122
+[26Jun2024 20:58:22.325] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:space_chamber Expected: 1890 Got: 3123
+[26Jun2024 20:58:22.326] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:space_chamber_controller Expected: 1891 Got: 3124
+[26Jun2024 20:58:22.326] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:builder Expected: 1892 Got: 3125
+[26Jun2024 20:58:22.326] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:shield_block1 Expected: 1893 Got: 3126
+[26Jun2024 20:58:22.327] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:shield_block2 Expected: 1894 Got: 3127
+[26Jun2024 20:58:22.327] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:shield_block3 Expected: 1895 Got: 3128
+[26Jun2024 20:58:22.327] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:shield_block4 Expected: 1896 Got: 3129
+[26Jun2024 20:58:22.328] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:blue_shield_template_block Expected: 1897 Got: 3130
+[26Jun2024 20:58:22.328] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:red_shield_template_block Expected: 1898 Got: 3131
+[26Jun2024 20:58:22.328] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:green_shield_template_block Expected: 1899 Got: 3132
+[26Jun2024 20:58:22.329] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:yellow_shield_template_block Expected: 1900 Got: 3133
+[26Jun2024 20:58:22.329] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:shielding_solid Expected: 1901 Got: 3134
+[26Jun2024 20:58:22.330] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:shielding_translucent Expected: 1902 Got: 3135
+[26Jun2024 20:58:22.330] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:shielding_cutout Expected: 1903 Got: 3136
+[26Jun2024 20:58:22.330] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:mover Expected: 1904 Got: 3137
+[26Jun2024 20:58:22.331] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:mover_controller Expected: 1905 Got: 3138
+[26Jun2024 20:58:22.331] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:vehicle_builder Expected: 1906 Got: 3139
+[26Jun2024 20:58:22.331] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:invisible_mover Expected: 1907 Got: 3140
+[26Jun2024 20:58:22.332] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:mover_control Expected: 1908 Got: 3141
+[26Jun2024 20:58:22.332] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:mover_control2 Expected: 1909 Got: 3142
+[26Jun2024 20:58:22.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:mover_control3 Expected: 1910 Got: 3143
+[26Jun2024 20:58:22.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:mover_control4 Expected: 1911 Got: 3144
+[26Jun2024 20:58:22.334] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: rftoolsbuilder:mover_status Expected: 1912 Got: 3145
+[26Jun2024 20:58:22.336] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:space_chamber Expected: 2930 Got: 4808
+[26Jun2024 20:58:22.336] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:space_chamber_controller Expected: 2931 Got: 4809
+[26Jun2024 20:58:22.336] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:space_chamber_card Expected: 2932 Got: 4810
+[26Jun2024 20:58:22.336] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:builder Expected: 2933 Got: 4811
+[26Jun2024 20:58:22.337] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:superharvestingtool Expected: 2934 Got: 4812
+[26Jun2024 20:58:22.337] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shape_card_def Expected: 2935 Got: 4813
+[26Jun2024 20:58:22.337] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shape_card_liquid Expected: 2936 Got: 4814
+[26Jun2024 20:58:22.338] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shape_card_pump Expected: 2937 Got: 4815
+[26Jun2024 20:58:22.338] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shape_card_pump_clear Expected: 2938 Got: 4816
+[26Jun2024 20:58:22.339] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shape_card_quarry Expected: 2939 Got: 4817
+[26Jun2024 20:58:22.339] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shape_card_quarry_clear Expected: 2940 Got: 4818
+[26Jun2024 20:58:22.339] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shape_card_quarry_clear_fortune Expected: 2941 Got: 4819
+[26Jun2024 20:58:22.340] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shape_card_quarry_clear_silk Expected: 2942 Got: 4820
+[26Jun2024 20:58:22.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shape_card_quarry_fortune Expected: 2943 Got: 4821
+[26Jun2024 20:58:22.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shape_card_quarry_silk Expected: 2944 Got: 4822
+[26Jun2024 20:58:22.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shape_card_void Expected: 2945 Got: 4823
+[26Jun2024 20:58:22.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shield_block1 Expected: 2946 Got: 4824
+[26Jun2024 20:58:22.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shield_block2 Expected: 2947 Got: 4825
+[26Jun2024 20:58:22.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shield_block3 Expected: 2948 Got: 4826
+[26Jun2024 20:58:22.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:shield_block4 Expected: 2949 Got: 4827
+[26Jun2024 20:58:22.345] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:blue_shield_template_block Expected: 2950 Got: 4828
+[26Jun2024 20:58:22.345] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:red_shield_template_block Expected: 2951 Got: 4829
+[26Jun2024 20:58:22.345] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:green_shield_template_block Expected: 2952 Got: 4830
+[26Jun2024 20:58:22.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:yellow_shield_template_block Expected: 2953 Got: 4831
+[26Jun2024 20:58:22.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:mover Expected: 2954 Got: 4832
+[26Jun2024 20:58:22.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:mover_controller Expected: 2955 Got: 4833
+[26Jun2024 20:58:22.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:vehicle_builder Expected: 2956 Got: 4834
+[26Jun2024 20:58:22.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:mover_control Expected: 2957 Got: 4835
+[26Jun2024 20:58:22.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:mover_control2 Expected: 2958 Got: 4836
+[26Jun2024 20:58:22.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:mover_control3 Expected: 2959 Got: 4837
+[26Jun2024 20:58:22.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:mover_control4 Expected: 2960 Got: 4838
+[26Jun2024 20:58:22.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:mover_status Expected: 2961 Got: 4839
+[26Jun2024 20:58:22.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:vehicle_card Expected: 2962 Got: 4840
+[26Jun2024 20:58:22.349] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:vehicle_control_module Expected: 2963 Got: 4841
+[26Jun2024 20:58:22.350] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: rftoolsbuilder:vehicle_status_module Expected: 2964 Got: 4842
+[26Jun2024 20:58:22.350] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: rftoolsbuilder:mover_loop Expected: 1827 Got: 2072
+[26Jun2024 20:58:22.363] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.363] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.363] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.363] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.364] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.364] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.364] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.365] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.365] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.365] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.366] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.366] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.367] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.367] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.367] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.368] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.368] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.368] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.369] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.369] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.369] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.370] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.370] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.370] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.371] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.372] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.373] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.373] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.374] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.374] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.374] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.375] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.375] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.375] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.376] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.376] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.376] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.377] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.377] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.377] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.378] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.378] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.379] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.379] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.379] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.380] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.380] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.380] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.381] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.381] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.381] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.382] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.382] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.382] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.383] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.383] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.383] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.384] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.384] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.384] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.385] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.385] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.385] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.386] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.386] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.388] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.388] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.389] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.389] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.389] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.390] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.390] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.391] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:22.391] [main/ERROR] [net.minecraft.Util/]: Entity hotairballoon:hot_air_balloon has no attributes
+[26Jun2024 20:58:24.904] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/bness/Desktop/Minecraft%20Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23195!/assets/.mcassetsroot' uses unexpected schema
+[26Jun2024 20:58:24.904] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/bness/Desktop/Minecraft%20Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23195!/data/.mcassetsroot' uses unexpected schema
+[26Jun2024 20:58:25.670] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[26Jun2024 20:58:26.440] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 77 recipes
+[26Jun2024 20:58:26.556] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4493 advancements
+[26Jun2024 20:58:26.563] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[26Jun2024 20:58:26.571] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[26Jun2024 20:58:26.578] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[26Jun2024 20:58:26.603] [main/INFO] [placebo/]: Registered 4 gear_sets.
+[26Jun2024 20:58:26.621] [main/INFO] [Gateways to Eternity/]: Registered 7 gateways.
+[26Jun2024 20:58:29.495] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26Jun2024 20:58:29.495] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Jun2024 20:58:29.496] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Jun2024 20:58:29.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Jun2024 20:58:29.555] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Jun2024 20:58:29.565] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[26Jun2024 20:58:29.692] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Jun2024 20:58:29.693] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Jun2024 20:58:29.695] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Jun2024 20:58:29.712] [Server thread/INFO] [Puzzles Lib/]: Loading server config for mutantmonsters
+[26Jun2024 20:58:29.714] [Server thread/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
+[26Jun2024 20:58:29.716] [Thread-2/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
+[26Jun2024 20:58:29.740] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\rftoolsbuilder-server.toml is not correct. Correcting
+[26Jun2024 20:58:29.741] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2024 20:58:29.741] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderMaxRF was corrected from null to its default, 1000000. 
+[26Jun2024 20:58:29.742] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRFPerTick was corrected from null to its default, 20000. 
+[26Jun2024 20:58:29.742] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRfPerOperation was corrected from null to its default, 500. 
+[26Jun2024 20:58:29.743] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRfPerLiquid was corrected from null to its default, 300. 
+[26Jun2024 20:58:29.744] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRfPerQuarry was corrected from null to its default, 300. 
+[26Jun2024 20:58:29.745] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRfPerSkipped was corrected from null to its default, 50. 
+[26Jun2024 20:58:29.746] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRfPerEntity was corrected from null to its default, 5000. 
+[26Jun2024 20:58:29.746] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRfPerPlayer was corrected from null to its default, 40000. 
+[26Jun2024 20:58:29.747] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.tileEntityMode was corrected from null to its default, MOVE_BLACKLIST. 
+[26Jun2024 20:58:29.748] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.blackWhiteListedBlocks was corrected from null to its default, []. 
+[26Jun2024 20:58:29.748] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.maxSpaceChamberDimension was corrected from null to its default, 128. 
+[26Jun2024 20:58:29.749] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.collectTimer was corrected from null to its default, 10. 
+[26Jun2024 20:58:29.750] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.collectRFPerItem was corrected from null to its default, 20. 
+[26Jun2024 20:58:29.751] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.dimensionCostFactor was corrected from null to its default, 5.0. 
+[26Jun2024 20:58:29.752] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.collectRFPerXP was corrected from null to its default, 2.0. 
+[26Jun2024 20:58:29.753] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.collectRFPerTickPerArea was corrected from null to its default, 0.5. 
+[26Jun2024 20:58:29.753] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.voidShapeCardFactor was corrected from null to its default, 0.5. 
+[26Jun2024 20:58:29.754] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.silkquarryShapeCardFactor was corrected from null to its default, 3.0. 
+[26Jun2024 20:58:29.755] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.fortunequarryShapeCardFactor was corrected from null to its default, 2.0. 
+[26Jun2024 20:58:29.757] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.quarryReplace was corrected from null to its default, minecraft:dirt. 
+[26Jun2024 20:58:29.758] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.quarryTileEntities was corrected from null to its default, true. 
+[26Jun2024 20:58:29.758] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.quarryChunkloads was corrected from null to its default, true. 
+[26Jun2024 20:58:29.759] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.shapeCardAllowed was corrected from null to its default, true. 
+[26Jun2024 20:58:29.759] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.quarryAllowed was corrected from null to its default, true. 
+[26Jun2024 20:58:29.760] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.clearingQuarryAllowed was corrected from null to its default, true. 
+[26Jun2024 20:58:29.760] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.quarryBaseSpeed was corrected from null to its default, 8. 
+[26Jun2024 20:58:29.761] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.quarryInfusionSpeedFactor was corrected from null to its default, 20. 
+[26Jun2024 20:58:29.762] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.maxBuilderOffset was corrected from null to its default, 260. 
+[26Jun2024 20:58:29.762] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.maxBuilderDimension was corrected from null to its default, 512. 
+[26Jun2024 20:58:29.765] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.oldSphereCylinderShape was corrected from null to its default, false. 
+[26Jun2024 20:58:29.767] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2024 20:58:29.767] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldMaxRF was corrected from null to its default, 200000. 
+[26Jun2024 20:58:29.768] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldRFPerTick was corrected from null to its default, 5000. 
+[26Jun2024 20:58:29.769] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldMaxSize was corrected from null to its default, 256. 
+[26Jun2024 20:58:29.770] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.maxShieldOffset was corrected from null to its default, 128. 
+[26Jun2024 20:58:29.770] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.maxShieldDimension was corrected from null to its default, 256. 
+[26Jun2024 20:58:29.771] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.maxDisjointShieldDistance was corrected from null to its default, 64. 
+[26Jun2024 20:58:29.773] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldRfBase was corrected from null to its default, 8. 
+[26Jun2024 20:58:29.773] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldRfCamo was corrected from null to its default, 2. 
+[26Jun2024 20:58:29.774] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldRfShield was corrected from null to its default, 2. 
+[26Jun2024 20:58:29.774] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldRfDamage was corrected from null to its default, 1000. 
+[26Jun2024 20:58:29.775] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldRfDamagePlayer was corrected from null to its default, 2000. 
+[26Jun2024 20:58:29.776] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldDamage was corrected from null to its default, 5.0. 
+[26Jun2024 20:58:29.776] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.allowInvisibleShield was corrected from null to its default, true. 
+[26Jun2024 20:58:29.777] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shardsPerLootingKill was corrected from null to its default, 2. 
+[26Jun2024 20:58:29.778] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.lootingKillBonus was corrected from null to its default, 3. 
+[26Jun2024 20:58:29.780] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2024 20:58:29.780] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.scannerMaxRF was corrected from null to its default, 500000. 
+[26Jun2024 20:58:29.780] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.scannerRFPerTick was corrected from null to its default, 20000. 
+[26Jun2024 20:58:29.781] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.scannerUsePerTick was corrected from null to its default, 1000. 
+[26Jun2024 20:58:29.781] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.remoteScannerUsePerTick was corrected from null to its default, 2000. 
+[26Jun2024 20:58:29.782] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorMaxRF was corrected from null to its default, 2000000. 
+[26Jun2024 20:58:29.783] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorRFPerTick was corrected from null to its default, 20000. 
+[26Jun2024 20:58:29.784] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorUsePerTickBase was corrected from null to its default, 5000. 
+[26Jun2024 20:58:29.785] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorUsePerTickChunk was corrected from null to its default, 0.1. 
+[26Jun2024 20:58:29.786] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorUsePerTickHostile was corrected from null to its default, 1.0. 
+[26Jun2024 20:58:29.788] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorUsePerTickPassive was corrected from null to its default, 0.5. 
+[26Jun2024 20:58:29.789] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorUsePerTickPlayer was corrected from null to its default, 2.0. 
+[26Jun2024 20:58:29.789] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorUsePerTickEnergy was corrected from null to its default, 5.0. 
+[26Jun2024 20:58:29.790] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorFilterCost was corrected from null to its default, 0.5. 
+[26Jun2024 20:58:29.790] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.projectorMaxRF was corrected from null to its default, 500000. 
+[26Jun2024 20:58:29.791] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.projectorRFPerTick was corrected from null to its default, 10000. 
+[26Jun2024 20:58:29.791] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.projectorUsePerTick was corrected from null to its default, 1000. 
+[26Jun2024 20:58:29.792] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.ticksPerLocatorScan was corrected from null to its default, 40. 
+[26Jun2024 20:58:29.792] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorEntitySafety was corrected from null to its default, 10. 
+[26Jun2024 20:58:29.793] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorMaxEnergyChunks was corrected from null to its default, 25. 
+[26Jun2024 20:58:29.793] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.maxScannerOffset was corrected from null to its default, 2048. 
+[26Jun2024 20:58:29.794] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.maxScannerDimension was corrected from null to its default, 512. 
+[26Jun2024 20:58:29.794] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.surfaceAreaPerTick was corrected from null to its default, 262144. 
+[26Jun2024 20:58:29.795] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.planeSurfacePerTick was corrected from null to its default, 40000. 
+[26Jun2024 20:58:29.797] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mover was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2024 20:58:29.798] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mover.vehicleControlRFPerTick was corrected from null to its default, 0. 
+[26Jun2024 20:58:29.798] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mover.vehicleStatusRFPerTick was corrected from null to its default, 2. 
+[26Jun2024 20:58:29.799] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mover.rfPerMove was corrected from null to its default, 1000. 
+[26Jun2024 20:58:29.800] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mover.moverControllerMaxRF was corrected from null to its default, 100000. 
+[26Jun2024 20:58:29.800] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mover.moverControllerRFPerTick was corrected from null to its default, 1000. 
+[26Jun2024 20:58:30.061] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26Jun2024 20:58:31.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Jun2024 20:58:33.283] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2024 20:58:33.309] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2024 20:58:33.337] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2024 20:58:33.344] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2024 20:58:33.404] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2024 20:58:33.840] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2024 20:58:34.339] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[26Jun2024 20:58:34.561] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3223 ms
+[26Jun2024 20:58:34.562] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.872s)! For help, type "help"
+[26Jun2024 20:58:34.574] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Network is unreachable: sendto
+[26Jun2024 20:58:34.597] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Jun2024 20:58:34.639] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.TestPlots for plots
+[26Jun2024 20:58:34.642] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[26Jun2024 20:58:34.642] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[26Jun2024 20:58:34.648] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[26Jun2024 20:58:34.649] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[26Jun2024 20:58:34.649] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[26Jun2024 20:58:34.649] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[26Jun2024 20:58:34.650] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[26Jun2024 20:58:34.650] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[26Jun2024 20:58:34.651] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[26Jun2024 20:58:34.651] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[26Jun2024 20:58:34.652] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[26Jun2024 20:58:34.652] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[26Jun2024 20:58:34.653] [Server thread/INFO] [app.netlify.xbb.HotAirBalloon.HotAirBalloonMain/]: HELLO from server starting
+[26Jun2024 20:58:34.669] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[26Jun2024 20:58:34.678] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet packages: 
+[26Jun2024 20:58:34.683] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: base.json, 75 valid dimlets found
+[26Jun2024 20:58:34.685] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: vanilla_blocks.json, 290 valid dimlets found
+[26Jun2024 20:58:34.686] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: vanilla_tags.json, 7 valid dimlets found
+[26Jun2024 20:58:34.686] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: vanilla_fluids.json, 2 valid dimlets found
+[26Jun2024 20:58:34.687] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: vanilla_biomes.json, 61 valid dimlets found
+[26Jun2024 20:58:34.687] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: vanilla_structures.json, 25 valid dimlets found
+[26Jun2024 20:58:34.688] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: rftools.json, 10 valid dimlets found
+[26Jun2024 20:58:34.689] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: appliedenergistics2.json, 11 valid dimlets found
+[26Jun2024 20:58:34.689] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: biggerreactors.json, 0 valid dimlets found
+[26Jun2024 20:58:34.690] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: bigreactors.json, 0 valid dimlets found
+[26Jun2024 20:58:34.690] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: botania.json, 121 valid dimlets found
+[26Jun2024 20:58:34.691] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: immersiveengineering.json, 0 valid dimlets found
+[26Jun2024 20:58:34.692] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: mekanism.json, 32 valid dimlets found
+[26Jun2024 20:58:34.692] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: powah.json, 0 valid dimlets found
+[26Jun2024 20:58:34.693] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: quark.json, 0 valid dimlets found
+[26Jun2024 20:58:34.694] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: tconstruct.json, 0 valid dimlets found
+[26Jun2024 20:58:34.694] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: thermal.json, 0 valid dimlets found
+[26Jun2024 20:58:34.695] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: biomesoplenty.json, 0 valid dimlets found
+[26Jun2024 20:58:34.698] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Reading dimlet package: emendatusenigmatica.json, 0 valid dimlets found
+[26Jun2024 20:58:48.358] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Zingzamboom is fb2b2e14-084f-42c5-a9b0-979b5325aa8e
+[26Jun2024 20:58:55.418] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Zingzamboom[/76.14.54.12:53126] logged in with entity id 134 at (0.41093197915720764, 11.0, 85.53955212594182)
+[26Jun2024 20:58:55.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zingzamboom joined the game
+[26Jun2024 20:58:55.659] [Server thread/INFO] [Jade/]: Syncing config to Zingzamboom (fb2b2e14-084f-42c5-a9b0-979b5325aa8e)
+[26Jun2024 20:58:55.684] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Client logged in: sending dimlet packages
+[26Jun2024 21:07:48.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Zingzamboom: Gave 64 [Iron Ore] to Zingzamboom]
